@@ -3,6 +3,21 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+.font-inter{
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+}
+.btn{
+    border-radius: 4px;
+    width: 164px;
+    height: 44px;
+    font-size: 16px;
+    font-weight: 600;
+    background-color: #30B868;
+    color: #FFFFFF;
+    border: none;
+}
 nav{
     max-width: 1600px;
     height: 92px;
@@ -17,15 +32,6 @@ nav{
     width: 139px;
     height: 60px;
 }
-nav .btn button{
-    border-radius: 4px;
-    width: 164px;
-    height: 44px;
-    font-size: 16px;
-    font-weight: 600;
-    background-color: #30B868;
-    color: #FFFFFF;
-}
 nav ul{
     display: flex;
     gap: 32px;
@@ -39,4 +45,40 @@ nav ul li a{
     line-height: 152%;
     color: #000000;
     line-height: 152%;
+}
+
+#hero-section{
+    background-image: url(/assets/hero-bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.hero-container{
+    max-width: 1360px;
+    padding: 116px 120px 180px 120px;
+    margin: 0 auto;
+}
+.hero-btn{
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+}
+.hero-container{
+    text-align: center;
+}
+.hero-title{
+    margin-bottom: 32px;
+}
+.hero-title .hero-heading{
+    margin-bottom: 16px;
+}
+.hero-title .hero-para p{
+    font-size: 18px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+.hero-heading .h1{
+    color: #FFFFFF;
+}
+.hero-heading .h2{
+    color: #30B868;
 }
