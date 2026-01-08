@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav{
+    max-width: 1600px;
+    height: 92px;
+    padding: 16px 120px;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 auto;
+    background-color: #FFFFFF;
+    display: flex;
+}
+.nav-image img{
+    width: 139px;
+    height: 60px;
+}
+nav .btn button{
+    border-radius: 4px;
+    width: 164px;
+    height: 44px;
+    font-size: 16px;
+    font-weight: 600;
+    background-color: #30B868;
+    color: #FFFFFF;
+}
+nav ul{
+    display: flex;
+    gap: 32px;
+}
+nav ul li{
+    list-style: none;
+}
+nav ul li a{
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 152%;
+    color: #000000;
+    line-height: 152%;
+}
