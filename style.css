@@ -63,7 +63,6 @@ nav .nav-btn button:hover{
     padding: 115px 120px 179px 120px;
 }
 #banner-section .banner{
-    border: 1px solid red;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -127,4 +126,79 @@ nav .nav-btn button:hover{
     display: flex;
     gap: 10px;
     align-items: center;
+}
+
+#content-section{
+    max-width: 1600px;
+    margin: 0 auto;
+    border: 1px solid black;
+}
+#content-section .first-content{
+    border: 1px solid greenyellow;
+}
+.first-content{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    margin-bottom: 44px;
+}
+.first-content .content-title{
+    padding-top: 60px;
+    text-align: center;
+}
+.first-content .content-title h2{
+    color: #001931;
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 16px;
+}
+.first-content .content-title p{
+    color: #627382;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.content-cards {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    margin-top: 44px;
+}
+.content-cards .card{
+    width: 322px;
+    display: flex;
+    gap: 16px;
+    flex-direction: column;
+    align-items: center;
+    padding: 70px 24px 21px 24px;
+    border-radius: 8px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 0px 8px 0px #00000029;
+}
+.content-cards .card h3{
+    color: #001931;
+    font-size: 24px;
+    font-weight: 600;
+}
+.content-cards .card p{
+    color: #627382;
+    font-size: 16px;
+    line-height: 20px;
+}
+.content-cards .card h3,p{
+    margin: 0;
+    text-align: center;
+}
+.content-cards .card .card-image {
+    background-color: #F95555;
+    height: 60px;
+    width: 60px;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.content-cards .card .card-image img{
+    height: 32px;
+    width: 32px;
 }
