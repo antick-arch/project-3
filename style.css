@@ -214,6 +214,7 @@ nav .nav-btn button:hover{
     gap: 60px;
     align-items: center;
     margin-top: 120px;
+    margin-bottom: 120px;
     background-color: #FFFFFF;
 }
 .cover .cover-image img{
@@ -255,4 +256,40 @@ nav .nav-btn button:hover{
     color: #627382;
     font-size: 16px;
     line-height: 20px;
+}
+#last-content .container{
+    /* border: 1px solid green; */
+    background-color: #F7F6F2;
+    padding: 80px 40px;
+}
+#last-content .container .last-max-title{
+    text-align: center;
+    margin-bottom: 40px;
+}
+#last-content .container .last-max-title h2{
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 16px;
+    color: #001931;
+}
+#last-content .container .last-max-title h2{
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 16px;
+    color: #001931;
+}
+#last-content .container .last-max-title p{
+    font-size: 16px;
+    line-height: 24px;
+    color: #627382;
+}
+.container .last-content-btn{
+    text-align: center;
+    margin-bottom: 16px;
+}
+.container .last-para{
+    color: #627382;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
 }
