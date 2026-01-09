@@ -131,11 +131,9 @@ nav .nav-btn button:hover{
 #content-section{
     max-width: 1600px;
     margin: 0 auto;
-    border: 1px solid black;
+    /* border: 1px solid black; */
 }
-#content-section .first-content{
-    border: 1px solid greenyellow;
-}
+
 .first-content{
     display: flex;
     justify-content: flex-start;
@@ -180,12 +178,12 @@ nav .nav-btn button:hover{
     font-size: 24px;
     font-weight: 600;
 }
-.content-cards .card p{
+.content-cards .card .content-para{
     color: #627382;
     font-size: 16px;
     line-height: 20px;
 }
-.content-cards .card h3,p{
+.content-cards .card .content-head,.content-para{
     margin: 0;
     text-align: center;
 }
@@ -201,4 +199,60 @@ nav .nav-btn button:hover{
 .content-cards .card .card-image img{
     height: 32px;
     width: 32px;
+}
+
+#cover-content{
+    max-width: 1600px;
+    margin: 0 auto;
+    /* border: 1px solid rgb(255, 58, 58); */
+    /* padding: 120px; */
+}
+.cover{
+    /* border: 1px solid grey; */
+    display: flex;
+    justify-content: space-between;
+    gap: 60px;
+    align-items: center;
+    margin-top: 120px;
+    background-color: #FFFFFF;
+}
+.cover .cover-image img{
+    height: 600px;
+    width: 600px;
+}
+.cover-contents .cover-title{
+    text-align: left;
+}
+.cover-list{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 16px;
+}
+.cover-list .list{
+    display: flex;
+    gap: 8px;
+}
+.cover-contents .cover-title{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    margin-bottom: 40px;
+    padding-right: 187px;
+}
+
+.cover .cover-title .min-title{
+    color: #469165;
+    font-size: 16px;
+    line-height: 20px;
+}
+.cover .cover-title h2{
+    color: #001931;
+    font-size: 48px;
+    font-weight: bold;
+}
+.cover .cover-title .max-title{
+    color: #627382;
+    font-size: 16px;
+    line-height: 20px;
 }
