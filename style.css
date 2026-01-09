@@ -261,6 +261,7 @@ nav .nav-btn button:hover{
     /* border: 1px solid green; */
     background-color: #F7F6F2;
     padding: 80px 40px;
+    border-radius: 12px;
 }
 #last-content .container .last-max-title{
     text-align: center;
@@ -292,4 +293,38 @@ nav .nav-btn button:hover{
     font-size: 16px;
     line-height: 20px;
     text-align: center;
+}
+
+footer{
+    max-width: 1600px;
+    margin: 0 auto;
+    background-color: #001931;
+    padding: 120px 120px 30px 120px;
+}
+footer .div1{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 84px;
+}
+footer .div1 .div1-icons {
+    color: #FFFFFF;
+    font-size: 20px;
+}
+footer .div1 .div1-icons p{
+    font-size: 20px;
+    line-height: 28px;
+    font-weight: 500;
+    margin-bottom: 16px;
+}
+footer hr{
+    border: none;
+    height: 2px;
+    background-color: #62738259;
+}
+footer .div2 p{
+    text-align: center;
+    margin: 30px 120px 30px 120px;
+    color: #FAFAFA;
+    font-size: 16px;
+    line-height: 24px;
 }
